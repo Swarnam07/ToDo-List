@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(222, 190, 255);
+  }
+  
+  .container {
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    padding: 36px 0px;
+    background-color: rgb(18, 93, 178);
+  }
+  h1 {
+    font-size: 4.5rem;
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  #tit {
+    width: 70%;
+    height: 33px;
+    transition: 0.3s;
+  }
+  #tit:hover {
+    border: 2px solid rgb(207, 207, 207);
+  }
+  .btn {
+    width: 23%;
+    height: 38px;
+    color: azure;
+    background-color: rgb(236, 8, 73);
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul > li {
+    position: relative;
+    cursor: pointer;
+    padding: 20px 40px;
+    list-style-type: none;
+    background: rgb(232, 234, 255);
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  ul li:hover {
+    background: white;
+    color: black;
+  }
+  
+  ul li.checked {
+    background: #7aadff;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: #f8fbff;
+    border-style: solid;
+    border-width: 0 7px 7px 0;
+    top: 12px;
+    left: 13px;
+    transform: rotate(43deg);
+    height: 24px;
+    width: 7px;
+  }
+  .Done {
+    position: absolute;
+    right: 0;
+    padding: 11px 17px;
+    font-size: 30px;
+    top: 0;
+    transition: 0.3s;
+    color: white;
+    background-color: red;
+  }
+  .Done:hover {
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
